@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <%- include('./partials/head'); %>
+</head>
+<body>
+    <%- include('./partials/menu'); %>
+    <div class="container pt-3">
+        <h1>Social clubs</h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <div class="container pt3">
+                    <img src="http://alatoo.edu.kg/image?img=image_1_2543954612111334002.jpg" class="rounded-circle" style="width:180px; height: 200px" alt="#">
+                    <h5>Student Council</h5>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#clb1">More</button>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="container pt3">
+                    <img src="http://alatoo.edu.kg/image?img=image_2_5948245359888276497.jpg" class="rounded-circle" style="width:180px; height: 200px" alt="#">
+                    <h5>V-Fund charity club</h5>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#clb2">More</button>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="container pt3">
+                    <img src="http://alatoo.edu.kg/image?img=image_3_6530698458358851161.jpg" class="rounded-circle" style="width:180px; height: 200px" alt="#">
+                    <h5>Student council</h5>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#clb3">More</button>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="container pt3">
+                    <img src="http://alatoo.edu.kg/image?img=image_4_5377062420517613493.jpg" class="rounded-circle" style="width:180px; height: 200px" alt="#">
+                    <h5>Komuz Club “Nur”</h5>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#clb4">More</button>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="container pt3">
+                    <img src="http://alatoo.edu.kg/image?img=image_5_6297124434182777654.jpg" class="rounded-circle" style="width:180px; height: 200px" alt="#">
+                    <h5>KVN</h5>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#clb5">More</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="clb1" class="collapse mt-2">
+            The Student Council is the Golden Bridge between students and the administration.
+            The club is involved in public activities aimed at the solution of important questions of activity
+            of student's youth, and the development of its social activity. In addition, student council is an
+            organization that exists solely on the enthusiasm of its participants, which define goals, assign
+            tasks, find their solutions and achieve desired results.
+        </div>
+        <div id="clb2" class="collapse mt-2">
+            V-Fund charity club, whose mission is to help people and find the best solutions with minimum
+            effort and maximum result, and create the current system works. The main purpose of this Fund
+            to provide greater assistance and support to orphanages, boarding schools, homes for the aged,
+            and to all those who need it. The Fund also cooperates with similar funds such as "the Elim barsynby?»
+            Active Jugend, and together with them creates and implements large-scale projects.
+        </div>
+        <div id="clb3" class="collapse mt-2">
+            The International student council is a club created for the help and social activity of
+            students from foreign countries.   It gives them the opportunity to make friends, develop
+            new skills, work in a team, the ability to set and achieve goals, the development of creativity,
+            as well as interesting and fun spending time.
+        </div>
+        <div id="clb4" class="collapse mt-2">
+            Komuz Club “Nur”- is a club created for all students who is interested in  playing Komuz.
+            The club actively participates not only at events inside the university, but also abroad.
+        </div>
+        <div id="clb5" class="collapse mt-2">
+            KVN - with each exit on the stage, KVN shares with the audience its energy of laughter and fun.
+            During of the existence of this movement students and graduates of the university became more
+            successful, competitive and harmonious individuals because the Club of Cheerful and Sharp-witted
+            being a universal genre forms not only acting technique, but also leadership qualities.
+        </div>
+    </div>
+
+
+    <div class="container m-5">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Building_B_of_IAAU.jpg" style="width:700px" class="mx-auto d-block img-thumbnail">
+    </div>
+
+    <%- include('./partials/footer'); %>
+
+</body>
+</html>
+
