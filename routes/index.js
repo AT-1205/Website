@@ -12,5 +12,4 @@ router.get('/academicClubs', function(req, res) {
 });
 
 
-
 module.exports = router;
